@@ -1,0 +1,28 @@
+[_file_info]
+version=4.1.0.0
+type=coordinate_systems
+[coord_systems_list]
+calibration_system=coord_systems_list:calibration_system
+sensor_system=coord_systems_list:sensor_system
+camera_pos_1_coordinate_system=coord_systems_list:camera_pos_1_coordinate_system
+[coord_systems_list:calibration_system]
+name=calibration_system
+type=initial_system
+display_name=Calibration System
+translation=0 0 0
+rotation=0 0 0
+use_best_fit_plane=0
+[coord_systems_list:sensor_system]
+name=sensor_system
+type=sensor_system
+display_name=Sensor System
+translation=1.3258652054747229e-015 -1.6022142872053447e-015 117.86528608280372
+rotation=3.1415926535897931 -8.7028790746840564e-025 -1.8626531065419029e-016
+use_best_fit_plane=0
+[coord_systems_list:camera_pos_1_coordinate_system]
+name=camera_pos_1_coordinate_system
+type=camera_aligned_coordinate_system
+display_name=Sensor System of camera_pos_1
+translation=1.3258652054747229e-015 -1.6022142872053447e-015 117.86528608280372
+rotation=-3.1415926535897931 8.7028790746840564e-025 1.8626531065419029e-016
+use_best_fit_plane=0

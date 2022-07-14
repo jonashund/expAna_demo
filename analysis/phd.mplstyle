@@ -1,0 +1,85 @@
+# PhD LaTeX mplstyle by Jonas Hund
+# adaption of https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+
+# LaTeX customizations.
+text.usetex         : True
+text.latex.preamble : r"\usepackage{mathtools} \usepackage{xfrac} \usepackage{libertine} \usepackage[libertine]{newtxmath} \usepackage[T1]{fontenc} \newcommand*{\units}[1]{\mbox{[\ifx&#1&$\vcenter{\hbox{-\kern-.5pt}}$\else#1\fi]}}"
+# text.latex.unicode : "inputenc" # use "ucs" and "inputenc" LaTeX packages for handling
+                            # unicode strings.
+
+
+# FONT
+font.family         : serif
+font.style          : normal
+font.variant        : normal
+font.weight         : medium
+font.stretch        : normal
+# note that font.size controls default text sizes.  To configure
+# special text sizes tick labels, axes, labels, title, etc, see the rc
+# settings for axes and ticks. Special text sizes can be defined
+# relative to font.size, using the following values: xx-small, x-small,
+# small, medium, large, x-large, xx-large, larger, or smaller
+font.size          : 12.0
+
+# font.serif: Palatino
+
+# TEXT
+
+text.color          : black
+
+# AXES
+# default face and edge color, default tick sizes,
+# default fontsizes for ticklabels, and so on.  See
+# http://matplotlib.org/api/axes_api.html#module-matplotlib.axes
+axes.facecolor      : white   # axes background color
+axes.edgecolor      : black   # axes edge color
+axes.linewidth      : 1.0     # edge linewidth
+axes.grid           : False   # display grid or not
+axes.titlesize      : medium  # fontsize of the axes title
+axes.labelsize      : medium  # fontsize of the x any y labels
+axes.labelweight    : normal  # weight of the x and y labels
+axes.labelcolor     : black
+axes.axisbelow      : True   # whether axis gridlines and ticks are below
+                              # the axes elements (lines, text, etc)
+axes.prop_cycle: cycler('color', ['e69f00', '56b4e9', 'cc79a7', '009e73', '0072b2', 'd55e00', 'f0e442', '000000'])
+                  # color palette for all color-vison deficiencies
+                  # taken from C. Wilke "Fundamentals of Data Visualization"
+                  # https://serialmentor.com/dataviz/
+
+# TICKS
+# see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
+xtick.major.size     : 5      # major tick size in points
+xtick.minor.size     : 2.5      # minor tick size in points
+xtick.major.width    : 0.5    # major tick width in points
+xtick.minor.width    : 0.25    # minor tick width in points
+xtick.major.pad      : 2      # distance to major tick label in points
+xtick.minor.pad      : 2      # distance to the minor tick label in points
+xtick.color          : k      # color of the tick labels
+xtick.labelsize      : small # fontsize of the tick labels
+
+ytick.major.size     : 5      # major tick size in points
+ytick.minor.size     : 2.5      # minor tick size in points
+ytick.major.width    : 0.5    # major tick width in points
+ytick.minor.width    : 0.25    # minor tick width in points
+ytick.major.pad      : 2      # distance to major tick label in points
+ytick.minor.pad      : 2      # distance to the minor tick label in points
+ytick.color          : k      # color of the tick labels
+ytick.labelsize      : small # fontsize of the tick labels
+
+# GRIDS
+grid.color       :   black   # grid color
+grid.linestyle   :   :       # dotted
+grid.linewidth   :   0.5     # in points
+grid.alpha       :   1.0     # transparency, between 0.0 and 1.0
+
+# FIGURE
+# See https://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
+figure.figsize:     5, 3  # figure size in inches
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+
+legend.edgecolor:      inherit  # background patch boundary color
+legend.fancybox:       False    # if True, use a rounded box for the
+                                # legend background, else a rectangle

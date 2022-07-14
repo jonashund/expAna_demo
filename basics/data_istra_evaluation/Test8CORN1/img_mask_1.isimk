@@ -1,0 +1,19 @@
+[_file_info]
+version=4.1.0.0
+type=image_mask
+[global]
+canvas_rect=0 0 1624 644
+guid=62a65650-ad8e-4f3a-98c9-6fdc8396b5cd
+part_masks_count=1
+[rt0]
+type=group_node
+rt0.pl0=rt0.pl0
+rt0.ma1=rt0.ma1
+[rt0.pl0]
+type=polygon_node
+position=295 132
+relative_point_vector=0 0 -85 172 -28 339 109 323 440 331 547 348 578 -19 464 5 70 13 
+[rt0.ma1]
+type=marker_node
+position=267 328
+marker_type=65537

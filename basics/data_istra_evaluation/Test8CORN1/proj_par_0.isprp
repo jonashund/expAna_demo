@@ -1,0 +1,32 @@
+[_file_info]
+version=4.1.0.0
+type=camera_calibration_parameter
+[parameter_description]
+name=correlation_2d_simple_makro
+display_name=correlation_2d_simple_makro
+description=
+last_changed_time=129442220383778753
+used_calibration_target=
+calibration_guid=8c30560d-7aa7-4dc6-b4f1-4f99315b0a6f
+[camera_units]
+camera_pos_1=camera_pos_1
+[intrinsic_projection_parameter.camera_pos_1]
+focal_length=3000.000244140625 3000.000244140625
+principal_point=812 617
+dist_radial_k1=0
+dist_radial_k2=0
+dist_tangential_p1=0
+dist_tangential_p2=0
+skew_coefficient=0
+[extrinsic_projection_parameter.camera_pos_1]
+rotation=3.1415926535897931 -8.7028790746840564e-025 -1.8626531065419029e-016
+translation=1.3258652054747229e-015 -1.6022142872053447e-015 117.86528608280372
+[calibration_markers]
+marker_vector=0 0 0 0 0 0 0 -23.9267 18.1513 0 0 0 0 1 -23.9267 -18.1513 0 0 0 0 2 23.9267 -18.1513 0 0 0 0 3 23.9267 18.1513 0 0 0 0 4 
+[calibration_frames]
+camera_pos_1.0=calibration_frames:camera_pos_1.0
+[calibration_frames:camera_pos_1.0]
+marker_ids=0 1 2 3 4
+pixel_coordinates=812 617 203 155 203 1079 1421 1079 1421 155
+distance_marker=0
+distance_at_marker=117.86528
