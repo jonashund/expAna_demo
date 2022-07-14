@@ -4,19 +4,19 @@ import expAna
 project_name = "test_expAna"
 
 # # Run expDoc for documentation purposes from the ./tex directory
-# os.chdir("./tex")
-# expAna.docu.main(project_name)
-# os.chdir("..")
+os.chdir("./tex")
+expAna.docu.main(project_name)
+os.chdir("..")
 
 # # Analyse the example test with expAna
 
-# # Stress computation
-# # Option 1: Evaluate the exported Istra4D data to compute the stress in conjunction with the data from the documentation
-# expAna.eval2stress.main()
+# Stress computation
+# Option 1: Evaluate the exported Istra4D data to compute the stress in conjunction with the data from the documentation
+expAna.eval2stress.main()
 
 # # Option 2: Use the Istra4D acquisition data, perform digital image correlation with µDIC, and compute the stresses with expAna
-# expAna.acquis2tif.main()
-# expAna.dic_with_muDIC.main()
+expAna.acquis2tif.main()
+expAna.dic_with_muDIC.main()
 expAna.muDIC2stress.main()
 
 # Basic visualisation of the results for checking and spotting errors
