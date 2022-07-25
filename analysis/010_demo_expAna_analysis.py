@@ -1,6 +1,6 @@
 import expAna
 
-import 011_demo_expAna_analysis_funcs as funcs
+import demo_expAna_analysis_funcs as funcs
 
 # Previously,projects have been created, stresses have been computated, and the results have been reviewed.
 # Now, analyses of the individual experiments' results can be carried out to gain further insight into the impact of parameters of interest
